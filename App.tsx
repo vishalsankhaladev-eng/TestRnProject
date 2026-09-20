@@ -28,6 +28,7 @@ function AppContent() {
 
   return (
     <View style={styles.container}>
+      <Text>Hello from Main Branch</Text>
       <NewAppScreen
         templateFileName="App.tsx"
         safeAreaInsets={safeAreaInsets}

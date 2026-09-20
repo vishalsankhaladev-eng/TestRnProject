@@ -6,7 +6,7 @@
  */
 
 import { NewAppScreen } from '@react-native/new-app-screen';
-import { StatusBar, StyleSheet, useColorScheme, View,Text } from 'react-native';
+import { StatusBar, StyleSheet, useColorScheme, View, Text } from 'react-native';
 import {
   SafeAreaProvider,
   useSafeAreaInsets,
@@ -28,8 +28,8 @@ function AppContent() {
 
   return (
     <View style={styles.container}>
-<Text>Hello from Feature Branch</Text>      
-<NewAppScreen
+      <Text>Hello from Feature Branch</Text>
+      <NewAppScreen
         templateFileName="App.tsx"
         safeAreaInsets={safeAreaInsets}
       />

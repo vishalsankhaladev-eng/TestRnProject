@@ -28,11 +28,7 @@ function AppContent() {
 
   return (
     <View style={styles.container}>
-<<<<<<< HEAD
     <Text>Hello from Main Branch</Text>
-=======
-    <Text>Hello from Feature Branch</Text>
->>>>>>> feature/test-conflict
       <NewAppScreen
         templateFileName="App.tsx"
         safeAreaInsets={safeAreaInsets}
